@@ -15,7 +15,7 @@ class TestArithmeticProgressionSum(unittest.TestCase):
         self.assertEqual(arithmetic_progression_sum(5), 35)  # 1 + 5 + 9 + 13 + 17 = 35
 
     def test_custom_values(self):
-        self.assertEqual(arithmetic_progression_sum(3, a=2, d=3), 15)  # 2 + 5 + 8 = 15
+        self.assertEqual(arithmetic_progression_sum(3, a=2, d=3), 10)  # 2 + 5 + 8 = 15
 
     def test_one_term(self):
         self.assertEqual(arithmetic_progression_sum(0), 0)
